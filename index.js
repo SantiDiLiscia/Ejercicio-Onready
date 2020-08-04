@@ -122,13 +122,9 @@ ${this.ordenadosPorPrecio()}
   }
 }
 
-//  Marca: Peugeot // Modelo: 206 // Puertas: 4 // Precio: $200.000,00
 let vehiculo1 = new Auto('Peugeot', '206', 4, 200000)
-//  Marca: Honda // Modelo: Titan // Cilindrada: 125c // Precio: $60.000,00
 let vehiculo2 = new Moto('Honda', 'Titan', '125c', 60000)
-//  Marca: Peugeot // Modelo: 208 // Puertas: 5 // Precio: $250.000,00
 let vehiculo3 = new Auto('Peugeot', '208', 5, 250000)
-//  Marca: Yamaha // Modelo: YBR // Cilindrada: 160c // Precio: $80.500,50
 let vehiculo4 = new Moto('Yamaha', 'YBR', '160c', 80500.50)
 
 let concesionaria = new Concesionaria(vehiculo1, vehiculo2, vehiculo3, vehiculo4)
